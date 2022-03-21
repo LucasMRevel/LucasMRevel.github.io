@@ -1,1 +1,1 @@
-LucasMRevel.github.io
+LucasMRevel.github.io/portafolio
