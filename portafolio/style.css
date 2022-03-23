@@ -328,8 +328,16 @@ footer{
   font-weight: 200;
 }
 
+@media  (max-width: 890px) {
+  header{
+    flex-direction: column;
+  }
 
+  header ul{
+    padding: 10px 0px;
+  }
 
+}
 
 
 
