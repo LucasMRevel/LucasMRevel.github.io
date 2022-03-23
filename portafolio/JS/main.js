@@ -1,13 +1,16 @@
+//delay del scroll
 ScrollReveal().reveal('inicio');
 ScrollReveal().reveal('.conocimientos', {delay: 700});
 ScrollReveal().reveal('.experiencias', {delay: 700});
 ScrollReveal().reveal('.contacto', {delay: 700});
 
+//scroll de header
 window.addEventListener("scroll", function(){
   var header = document.querySelector("header");
   header.classList.toggle("sticky", window.scrollY >0);
 })
 
+// fuincion de escritura
 const yo = document.getElementById('yo')
 const conocimientos = document.getElementById('conocer')
 const experiencias = document.getElementById('misExperiencias')
@@ -39,3 +42,7 @@ escritura("Sobre mi  ",150, yo)
 escritura('Conocimientos  ',150, conocimientos)
 escritura('Experiencias  ',150, experiencias)
 escritura('Contacto  ',150, contacto)
+
+function nombre(){
+  alert("Ese es mi nombre ;) ;) ;)")
+}
